@@ -9,6 +9,7 @@
 - Enjoy the game!
 ---
 
+---
 ## GAME BRIEF
 
 **Title**: The Lost Approach
@@ -23,3 +24,14 @@
 | Arc 1 | Arc 2 | Arc 3 | Arc 4 |
 | ----- | ----- | ----- | ----- |
 | Departure | Lost in Storm | Last Approach | After Silence |
+
+**The 4 main endings**
+| Ending 1 | Ending 2 | Ending 3 | Ending 4 |
+| -------- | -------- | -------- | -------- |
+| Home again | Survivors | Too Late | Last Flight |
+---
+
+*Prerequisites*: Modern browser that supports HTML5, Stable WIFI connection (prefferably high-speed)
+
+
+# HAVE FUN!!!
