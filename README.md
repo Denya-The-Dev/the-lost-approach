@@ -4,8 +4,8 @@
 
 ---
 ### HOW TO RUN
-- Clone the repository to your computer
-- Run the .HTML file **WITHIN** the folder (IMPORTANT)
+- Clone the repository to your computer (git clone https://github.com/Denya-The-Dev/the-lost-approach.git)
+- Run the .HTML file **WITHIN** the folder (IMPORTANT) (cd the-lost-approach && <browser_name> index.html)
 - Enjoy the game!
 ---
 
