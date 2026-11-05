@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 body{
-    font-family: 'Sora', Courier, monospace;
-    font-weight: 500;
+    font-family: 'Sora', Courier, monospace !important;
 }
 
 /*===========================================*/
@@ -21,18 +20,9 @@ body{
     margin-bottom: 0;
 }
 .titleBottom {
-    font-weight: 900;
+    font-weight: 800;
     letter-spacing: 1rem;
     font-size: 3rem;
     margin: 0;
     margin-top: 5rem;
-}
-/*===========================================*/
-/*=============Twine Sugarcube Style=========*/
-/*===========================================*/
-#story {
-    margin: 0;
-}
-#ui-bar {
-    /* display: none; */
 }

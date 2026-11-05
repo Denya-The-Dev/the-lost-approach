@@ -1,3 +1,18 @@
+:: Chapter1Intro
+<<nobr>>
+
+    <div class="titleParent">
+        <p class="titleTop">You are on</p>
+        <p class="titleBottom">Chapter 1</p>
+
+    <div class="buttonsParent">
+        <div class="button">
+            [[LETS GOOO!->Chapter1]]
+        </div>
+    </div>
+
+<</nobr>>
+
 :: Chapter1
 
 <<nobr>>
@@ -14,7 +29,7 @@
 
 <div class="buttonsParent">
     <div class="button">
-        [[Continue->Start]]
+        [[This will be a very long journey. But im up!->Start]]
     </div>
 </div>
 <</nobr>>
