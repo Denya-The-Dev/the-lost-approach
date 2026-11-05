@@ -1,0 +1,21 @@
+:: StoryTitle
+The Last Approach
+
+:: StoryInit
+/*<<cacheaudio "sound_effect" "media/door_creak.mp3">>*/
+
+:: Start
+<<nobr>>
+
+<div class="titleParent">
+    <p class="titleTop">Welcome to</p>
+    <p class="titleBottom">The Last Approach</p>
+
+<div class="buttonsParent">
+    <div class="button">
+        [[Begin the journey->Chapter1]]
+    </div>
+</div>
+
+<</nobr>>
+

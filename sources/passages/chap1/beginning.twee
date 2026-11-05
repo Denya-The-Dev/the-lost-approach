@@ -1,0 +1,23 @@
+:: Chapter1
+
+<<nobr>>
+
+
+<div class="storyContainer">
+    <div class="Subtitle">
+        <p>Chapter 1 - The airport</p>
+    </div>
+    <div class="StoryMain">
+        <p>This will be the long animated typed paragraph soon, however it should remain static</p>
+    </div>
+</div>
+
+<div class="buttonsParent">
+    <div class="button">
+        [[Continue->Start]]
+    </div>
+</div>
+<</nobr>>
+
+
+:: cha12

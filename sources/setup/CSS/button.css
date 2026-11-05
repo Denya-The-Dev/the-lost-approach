@@ -1,0 +1,52 @@
+.buttonsParent {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Cold, misty Nordic button styling */
+.button a {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  
+  /* Frosted slate-blue base with subtle transparency */
+  background: rgba(30, 42, 56, 0.75);
+  color: #d8e5ed !important; /* Pale mist blue text */
+  
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  
+  /* Soft icy border */
+  border: 1px solid rgba(175, 205, 225, 0.25);
+  border-radius: 4px;
+  
+  /* Glassmorphism blur for background video */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  
+  /* Subtle cold depth shadow */
+  box-shadow: 0 4px 15px rgba(10, 18, 26, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover state: mist lifting / cold icy glow */
+.button a:hover {
+  background: rgba(45, 65, 85, 0.85);
+  color: #ffffff !important;
+  border-color: rgba(200, 230, 255, 0.6);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(180, 215, 235, 0.25), 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Active click state */
+.button a:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
