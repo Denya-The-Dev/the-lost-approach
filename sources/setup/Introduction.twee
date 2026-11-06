@@ -1,0 +1,75 @@
+:: StoryTitle
+The Last Approach
+
+:: StoryInit
+<<cacheaudio "intro1" "sources/Assets/Intro/Intro1.ogg">>
+
+:: Start
+<<nobr>>
+    <div class="titleParent">
+        <<type 60ms >><p class="titleTop">Welcome to</p><</type>>
+        <<type 50ms >><p class="titleBottom">The Last Approach</p><</type>>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Let the fun begin!->tutorial1]]
+        </div>
+    </div>
+<</nobr>>
+
+
+:: tutorial1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Tutorial - 1</p>
+        </div>
+        <div class="StoryMain">
+            <<type 60ms >>
+                <p>Welcome to my "non-linear" adventure game.</p>
+                <br>
+                <p>In this game, you will be asked a series of question, which you will need to answer, in order to achieve success.</p>
+                <br>
+                <p>However, every decision will have consequences. You will not know the result immediately, however at the end you will clearly understand why your choices mattered.</p>
+                <br>
+                <p>You can navigate the story using the buttons above. But remember, no take backsies!</p>
+            <</type>>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Introduction->introduction]]
+        </div>
+    </div>
+<</nobr>>
+
+:: introduction
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Introduction - 1</p>
+        </div>
+        <div class="StoryMain">
+            <<type 60ms >>
+                <p>Below you will have a quick brief on your character: </p>
+                <br>
+                <hr>
+                <p>Name: -TBD- </p>
+                <p>Age: -TBD- </p>
+                <p>Gender: -TBD- </p>
+                <p>Nationality: Icelander </p>
+                <p>Reason for travel: Family reunion</p>
+                <hr>
+                <br>
+                <p>When ready, click the button above to begin your adventure!</p>
+            <</type>>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Chapter 1->Chapter1.0]]
+        </div>
+    </div>
+<</nobr>>
+
+

@@ -35,3 +35,15 @@
 
 
 # HAVE FUN!!!
+
+
+*DEVELOPER NOTES*
+Things to add:
+- Correct character information, age, gender, name etc
+- Add more items into the body paragraph and tweak with style settings
+
+
+
+*CHAPTERS COMPLETED*
+Completed:
+- Introduction.twee

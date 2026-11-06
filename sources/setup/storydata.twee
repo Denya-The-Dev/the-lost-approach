@@ -4,3 +4,8 @@
     "format": "SugarCube",
     "format-version": "2.37.3"
 }
+:: StoryTitle
+The Last Approach
+
+:: StoryInit
+<<cacheaudio "intro1" "sources/Assets/Intro/Intro1.ogg">>
