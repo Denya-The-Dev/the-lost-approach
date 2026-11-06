@@ -1,4 +1,3 @@
-/* Container anchored at bottom center with frosted background */
 .storyContainer {
   position: fixed;
   bottom: 2rem;
@@ -10,49 +9,44 @@
   padding: 2rem 2.5rem;
   box-sizing: border-box;
   
-  /* Frosted slate-navy background with subtle opacity */
+
   background: rgba(18, 26, 36, 0.75);
   border: 1px solid rgba(175, 205, 225, 0.2);
   border-radius: 8px;
   
-  /* Misty glassmorphism blur for background video */
+
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   
-  /* Cold ambient glow & depth shadow */
+
   box-shadow: 0 8px 32px rgba(5, 10, 16, 0.6),
               inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* Subtitle / Chapter Heading styling */
 .Subtitle p {
   margin: 0 0 0.8rem 0;
-  color: #8da4b5; /* Frosty desaturated blue */
+  color: #8da4b5;
   font-family: inherit;
   font-size: 0.95rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   
-  /* Soft cold text glow */
   text-shadow: 0 0 10px rgba(141, 164, 181, 0.3);
 }
 
-/* Main story text styling */
 .StoryMain p {
   margin: 0;
-  color: #e6f0f5; /* Very light icy white-blue for readability */
+  color: #e6f0f5;
   font-family: inherit;
   font-size: 1.15rem;
   line-height: 1.65;
   letter-spacing: 0.02em;
   font-weight: 400;
   
-  /* Subtle fog aura around text over video */
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-/* Push buttons smoothly below the text box when rendered inside storyContainer or wrapper */
 .buttonsParent {
   margin-top: 1.75rem;
   display: flex;
