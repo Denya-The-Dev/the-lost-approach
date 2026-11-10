@@ -1,14 +1,8 @@
-:: StoryTitle
-The Last Approach
-
-:: StoryInit
-<<cacheaudio "intro1" "sources/Assets/Intro/Intro1.ogg">>
-
 :: Start
 <<nobr>>
     <div class="titleParent">
-        <<type 60ms >><p class="titleTop">Welcome to</p><</type>>
-        <<type 50ms >><p class="titleBottom">The Last Approach</p><</type>>
+        <p class="titleTop">Welcome to</p>
+        <p class="titleBottom">The Last Approach</p>
     </div>
     <div class="buttonsParent">
         <div class="button">
@@ -25,15 +19,13 @@ The Last Approach
             <p>Tutorial - 1</p>
         </div>
         <div class="StoryMain">
-            <<type 60ms >>
-                <p>Welcome to my "non-linear" adventure game.</p>
-                <br>
-                <p>In this game, you will be asked a series of question, which you will need to answer, in order to achieve success.</p>
-                <br>
-                <p>However, every decision will have consequences. You will not know the result immediately, however at the end you will clearly understand why your choices mattered.</p>
-                <br>
-                <p>You can navigate the story using the buttons above. But remember, no take backsies!</p>
-            <</type>>
+            <p>Welcome to my "non-linear" adventure game.</p>
+            <br>
+            <p>In this game, you will be asked a series of question, which you will need to answer, in order to achieve success.</p>
+            <br>
+            <p>However, every decision will have consequences. You will not know the result immediately, however at the end you will clearly understand why your choices mattered.</p>
+            <br>
+            <p>You can navigate the story using the buttons above. But remember, no take backsies!</p>
         </div>
     </div>
     <div class="buttonsParent">
@@ -50,19 +42,17 @@ The Last Approach
             <p>Introduction - 1</p>
         </div>
         <div class="StoryMain">
-            <<type 60ms >>
-                <p>Below you will have a quick brief on your character: </p>
-                <br>
-                <hr>
-                <p>Name: -TBD- </p>
-                <p>Age: -TBD- </p>
-                <p>Gender: -TBD- </p>
-                <p>Nationality: Icelander </p>
-                <p>Reason for travel: Family reunion</p>
-                <hr>
-                <br>
-                <p>When ready, click the button above to begin your adventure!</p>
-            <</type>>
+            <p>Below you will have a quick brief on your character: </p>
+            <br>
+            <hr>
+            <p>Name: -TBD- </p>
+            <p>Age: -TBD- </p>
+            <p>Gender: -TBD- </p>
+            <p>Nationality: Icelander </p>
+            <p>Reason for travel: Family reunion</p>
+            <hr>
+            <br>
+            <p>When ready, click the button above to begin your adventure!</p>
         </div>
     </div>
     <div class="buttonsParent">
@@ -71,5 +61,3 @@ The Last Approach
         </div>
     </div>
 <</nobr>>
-
-
