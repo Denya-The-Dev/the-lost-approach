@@ -1,4 +1,29 @@
 :: Chapter1.0
 <<nobr>>
-    NOT DONE YET HAHAHAH
+    <div class="titleParent">
+        <p class="titleTop">Beginning of</p>
+        <p class="titleBottom">The Chapter 1</p>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Let's go!->Chapter1.1]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter 1 - 1</p>
+        </div>
+        <div class="StoryMain">
+            <p></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Introduction->introduction]]
+        </div>
+    </div>
 <</nobr>>
