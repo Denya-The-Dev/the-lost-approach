@@ -89,6 +89,7 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 **On review:**
 - [x] Prologue
 - [x] CSS
+- [x] Readme UI and doc 
 
 ### THINGS COMPLETED
 
