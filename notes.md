@@ -24,8 +24,3 @@
         </div>
     </div>
 <</nobr>>
-
-
-## TODO: 
-
-Update the main readme description to match the new 737 theme
