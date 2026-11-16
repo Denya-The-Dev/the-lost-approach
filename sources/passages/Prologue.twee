@@ -18,12 +18,36 @@
             <p>Prologue - 1</p>
         </div>
         <div class="StoryMain">
-            <p></p>
+            <p>It is raining heavily. You are walking along a soaking gravel path, leading to the entrance to the airport of Faroe.</p>
+            <p><i>“Weather isn’t looking so great”</i>, you think to yourself, walking faster and faster to reach the airport quicker.</p>
         </div>
     </div>
     <div class="buttonsParent">
         <div class="button">
-            [[Introduction->introduction]]
+            [[Continue->Prologue1.2]]
+        </div>
+    </div>
+</nobr>>
+
+:: Prologue1.2
+<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Prologue - 2</p>
+        </div>
+        <div class="StoryMain">
+            <p>You booked a flight couple of weeks in advance already. And just now, you get a notification on your phone.</p>
+            <br>
+            <hr>
+            <p><i>“Widerøe: Your flight WF285 to Bergen is delayed. Due to weather, this flight will now be operated by Norwegian (Boeing 737-800).”</i></p>
+            <hr>
+            <br>
+            <p><i>“What a shocker”</i>- you said, continuing walking down a wet gravel path.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.0]]
         </div>
     </div>
 <</nobr>>
