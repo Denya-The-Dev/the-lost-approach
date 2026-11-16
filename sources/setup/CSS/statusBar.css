@@ -1,0 +1,43 @@
+.statusMenu {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+
+    width: fit-content;
+    max-width: 750px;
+    padding-right: 0 !important;
+    box-sizing: border-box;
+
+
+    background: rgba(18, 26, 36, 0.75);
+    border: 1px solid rgba(175, 205, 225, 0.2);
+    border-radius: 8px;
+
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
+    box-shadow: 0 8px 32px rgba(5, 10, 16, 0.6),inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.statusMenu div {
+    padding: 0.3rem;
+}
+
+.health {
+    color: red;
+}
+.knowledge {
+    color: seagreen;
+}
+.stress {
+    color: orange;
+}
+.hope {
+    color: blue;
+}

@@ -9,3 +9,20 @@ The Last Approach
 
 :: StoryInit
 <<cacheaudio "intro1" "sources/Assets/Intro/Intro1.ogg">>
+
+<<set $health to 100>>
+<<set $stress to 20>>
+<<set $trust to 50>>
+<<set $knowledge to 0>>
+<<set $aircraft to 100>>
+<<set $hope to 70>>
+
+
+
+:: PassageFooter
+<div class="statusMenu">
+    <div class="stat health"><span>Health</span> <span><<= $health>></span></div>
+    <div class="stat stress"><span>Stress</span> <span><<= $stress>></span></div>
+    <div class="stat knowledge"><span>Knowledge</span> <span><<= $knowledge>></span></div>
+    <div class="stat hope"><span>Hope</span> <span><<= $hope>></span></div>
+</div>
