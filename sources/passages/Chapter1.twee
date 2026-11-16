@@ -1,0 +1,149 @@
+:: Chapter1.0
+<<nobr>>
+    <div class="titleParent">
+        <p class="titleTop">Beginning of</p>
+        <p class="titleBottom">The Chapter 1</p>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Let's go!->Chapter1.1]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 1</p>
+        </div>
+        <div class="StoryMain">
+            <p>Suddenly the rain stops, and you experience a slightly warmer wind, that lifts your hopes and gives you more desire to complete the trip, as you have set out to do.</p>
+            <p>However, the sun didn’t last for long, and in the next 10 minutes, it started raining yet again.</p>
+            <p>Luckily for you, you are already close to the main terminal, and aren’t affected much by the tremendous amount of water that just fell from the sky.</p>
+            <p><i>“Well that was lucky”</i>, you mumbled.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.2]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.2
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 2</p>
+        </div>
+        <div class="StoryMain">
+            <hr>
+            <p><i>“Widerøe flight 285 to Bergen, operated by Norwegian, is now boarding at Gate 2,”</i></p>
+            <hr>
+            <br>
+            <p>came loudly over the terminal intercom.<i>“Here we go,”</i> you said to yourself, heading toward the gate.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.3]]
+        </div>
+    </div>
+<</nobr>>
+
+
+:: Chapter1.3
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 3</p>
+        </div>
+        <div class="StoryMain">
+            <p>Unlike on any flights before, you had a strange feeling.</p>
+            <p>You couldn’t describe it, it wasn’t something you knew what it was.</p>
+            <p>There was one thing clear however.</p>
+            <p>From now on, there is no turning back.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.4]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.4
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 4</p>
+        </div>
+        <div class="StoryMain">
+            <p>The large B737 had just made a sharp turn onto the runway to backtrack and prepare for the takeoff.</p>
+            <p>CFM engines spooled up loudly as the plane began accelerating to a high-speed taxi.</p>
+            <p> Severe weather and flooded runway were shaking the plane heavily.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.5]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.5
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 5</p>
+        </div>
+        <div class="StoryMain">
+            <p>Next to you, sat an elderly man.</p>
+            <p>Clearly, he wasn’t so excited about the flight. </p>
+            <p>His face was trembling with an expression you’ve never seen before in your whole life. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Help the man->Chapter1.5_help]]
+        </div>
+        <div class="button">
+            [[Ignore->Chapter1.5_ignore]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.5_help
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 5 (HELP)</p>
+        </div>
+        <div class="StoryMain">
+            <p>TO EDIT LATER HAHHAHHAWHHSAHWHAHWHS</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.6]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.5_ignore
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 5 (IGNORE)</p>
+        </div>
+        <div class="StoryMain">
+            <p>TO EDIT LATER HAHHAHHAWHHSAHWHAHWHS</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.6]]
+        </div>
+    </div>
+<</nobr>>
