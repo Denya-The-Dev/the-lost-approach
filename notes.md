@@ -24,3 +24,7 @@
         </div>
     </div>
 <</nobr>>
+
+## setting the variables
+
+<<set $numberVariable to 5>>
