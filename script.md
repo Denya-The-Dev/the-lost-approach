@@ -53,7 +53,7 @@ Plane continued climbing loudly through the clouds for another 30 to 40 minutes.
 
 The plane had seemingly leveled off, after a long and turbulent climb. However, you could barely see outside, due to the stormy weather. “The pilots must know what they’re doing in order to fly through here”, you thought for yourself. Despite it being a relatively short flight, you’ve drank and absorbed way too much water, and needed to go to the bathroom. The light was green, and there was nobody at the door at the moment. You got up from your seat, shuffled sideways, and strolled to the toilet. 
 
-## Passage 2.1
+### Passage 2.1
 
 Before you could reach the door however, a sudden gust of wind had hit the airplane at a very precise angle, and had sent everyone flying. To make things worse, it wasn’t just a gust - it was a whole stream of the same air, and the plane shook violently. The vibration from the engine was at the correct frequency, that made the food trolley retainers unscrew. 
 
@@ -76,7 +76,7 @@ There simply wasn’t enough time. You saw the cart speed up along the isle, and
 
 Sure enough, not even 2 seconds since, a loud audible cry came from the middle of the plane. You swiftly turned your head, and saw the cart tipped over, obstructing the aisle and injuring 2 aisle seating passengers. Not even a second later, boh flight attendants scrambled to help, leaving you alone in the galley, just staring at what had just happened.
 
-## Passage 2.2
+### Passage 2.2
 
 The post was now empty, and there was no one to notice the cracking sound from the overhead bins. The jolt from the turbulence had apparently exceeded the maximum G-load of the overhead bins by an amount, and their structural integrity was compromised. You were in the lavatory at the time when the part of the bin detached. The only thing that you’ve heard is the loud bang and a sudden cry of a passenger.
 
