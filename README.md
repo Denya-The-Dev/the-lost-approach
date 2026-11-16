@@ -65,6 +65,8 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 **Narrated by:** Denya and Tima
 
+**Software/Compiler by** Twine
+
 ---
 
 # HAVE FUN!
