@@ -120,8 +120,13 @@
         <div class="Subtitle">
             <p>Chapter1 - 5 (HELP)</p>
         </div>
+        <<set $trust to $trust + 10>>
+        <<set $stress to $stress + 5>>
+        <<set $hope to $hope + 5>>
         <div class="StoryMain">
-            <p>TO EDIT LATER HAHHAHHAWHHSAHWHAHWHS</p>
+            <p>You know what it feels like to drown in panic. Reaching out to him, you tap him on the shoulder. He jumps, turning his eyes full of fear to you.</p>
+            <p><i>“It’s just some light precipitation”</i>, you said, hopefully easing the mans nerves.</p>
+            <p><i> “Pilots deal with this stuff every day. Even better, we are flying in a much more reliable aircraft now.”</i>. The man nodded, and turned his face forwards. The fear was slowly draining from his expression.</p>
         </div>
     </div>
     <div class="buttonsParent">
