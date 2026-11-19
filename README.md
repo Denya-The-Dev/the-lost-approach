@@ -65,7 +65,7 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 **Narrated by:** Denya and Tima
 
-**Software/Compiler by** Twine
+**Software/Compiler by:** Twine
 
 ---
 
@@ -79,14 +79,15 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 - [ ] Correct character information, age, gender, name etc
 - [ ] Add more items into the body paragraph and tweak with style settings
-- [ ] Chapter 1
+
 - [ ] Chapter 2
 - [ ] Chapter 3
-- [ ] Chapter 3
+- [ ] Chapter 4
 
 
 
 **On review:**
+- [x] Chapter 1 *No graphical enchancement yet*
 - [x] Prologue
 - [x] CSS
 - [x] Readme UI and doc 
