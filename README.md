@@ -76,15 +76,15 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 ### DEVELOPER NOTES
 
 **Things to add:**
-
 - [ ] Correct character information, age, gender, name etc
 - [ ] Add more items into the body paragraph and tweak with style settings
 
-- [ ] Chapter 2
+
 - [ ] Chapter 3
 - [ ] Chapter 4
 
-
+**Working on:**
+- [ ] Chapter 2
 
 **On review:**
 - [x] Chapter 1 *No graphical enchancement yet*
