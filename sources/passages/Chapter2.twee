@@ -75,7 +75,9 @@
         <div class="Subtitle">
             <p>Chapter2 - 3 (Success)</p>
         </div>
-
+        <<set $trust to $trust + 15>>
+        <<set $stress to $stress + 10>>
+        <<set $health to $health - 5>>
         <div class="StoryMain">
             <p>You lunged forward to reach the trolley before it had picked up any speed. </p>
             <p>The weight of the trolley overwhelmed you slightly, and dragged you several meters across the aisle. </p>
@@ -100,6 +102,7 @@
         <div class="Subtitle">
             <p>Chapter2 - 3 (TOO LATE)</p>
         </div>
+        <<set $stress to $stress - 5>>
         <div class="StoryMain">
             <p>There simply wasn’t enough time. You saw the cart speed up along the isle, and had 0 chance of reaching it before it had impacted someone.</p>
             <p>Sure enough, not even 2 seconds since, a loud audible cry came from the middle of the plane. </p>
