@@ -2,7 +2,7 @@
 <<nobr>>
     <div class="titleParent">
         <p class="titleTop">Beginning of</p>
-        <p class="titleBottom">The Chapter 1</p>
+        <p class="titleBottom">Departure</p>
     </div>
     <div class="buttonsParent">
         <div class="button">
@@ -143,12 +143,131 @@
             <p>Chapter1 - 5 (IGNORE)</p>
         </div>
         <div class="StoryMain">
-            <p>TO EDIT LATER HAHHAHHAWHHSAHWHAHWHS</p>
+            <p>Despite his expression, you look away, turning your face to a window which was really blurry, due to all the rain.</p>
+            <p>You have enough of your own problems on your shoulders to carry tonight. You cannot afford to take another man’s problems on yourself.</p>
+            <p>You throw the headphones onto your head and turn on some music, to silence any cries of the passengers.</p>
         </div>
     </div>
     <div class="buttonsParent">
         <div class="button">
             [[Continue->Chapter1.6]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.6
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 6</p>
+        </div>
+
+        <div class="StoryMain">
+            <p><i>“Nordic 248, Faroe tower, Wind 280 degrees at 20 knots, gusting to 28 kts, fly runway heading, runway 30 cleared for takeoff”</i>, was slightly audible from the cockpit. The same moment, the 2 CFM engines roared to life, and the plane started accelerating rapidly down a flooded runway. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.7]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.7
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 7</p>
+        </div>
+
+        <div class="StoryMain">
+            <p>As the wings gained authority, the whole plane was jolted to the side with the sudden gust of crosswind, and for a moment, it appeared as if the engine cowling had actually striked the asphalt underneath. </p>
+            <p>No sparks, no fire. Just the cowling was ever so slightly deformed. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.8]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.8
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 8</p>
+        </div>
+
+        <div class="StoryMain">
+            <p>Despite the incident, the pilots continued the takeoff, as if nothing had happened. Presumably, they haven’t even noticed the impact.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Report the damage->Chapter1.9_report]]
+        </div>
+        <div class="button">
+            [[Stay quiet->Chapter1.9_ignore]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.9_report
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 9 (REPORT)</p>
+        </div>
+        <<set $knowledge to $knowledge + 1>>
+        <<set $trust to $trust + 5>>
+        <div class="StoryMain">
+            <p>As soon as the plane was in a level flight and had gained some altitude, you swiftly unbuckled your seatbelt, and sprung to the front galley to report the damage to the flight attendants. </p>
+            <p><i>“On the takeoff roll, the right engine cowling had struck the asphalt, and appeared slightly deformed”</i>, you said to the flight attendants. </p>
+            <p><i>“Thanks for reporting, we will report that to the captain. Now return to your seat and make sure your seatbelt is fastened”</i>. You went back to your seat, with your mind slightly eased.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.10]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.9_ignore
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 9 (IGNORE)</p>
+        </div>
+        <div class="StoryMain">
+            <p>You instantly imagined all of the dangerous scenarios that could have happened. </p>
+            <p>Your mind was filled with terrifying thoughts, and wasn’t giving you the peace of mind that you should’ve had on this short hop from Faroe to Bergen. </p>
+            <p>The slight vibration that the engine was now causing wasn’t particularly of your liking. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter1.10]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter1.10
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter1 - 10</p>
+        </div>
+
+        <div class="StoryMain">
+            <p>Plane continued climbing loudly through the clouds for another 30 or 40 minutes. </p>
+            <p>It was hard to tell because you had absolutely zero visual clue.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Lost In Storm->Chapter2.0]]
         </div>
     </div>
 <</nobr>>
