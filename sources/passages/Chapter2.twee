@@ -1,0 +1,132 @@
+:: Chapter2.0
+<<nobr>>
+    <div class="titleParent">
+        <p class="titleTop">Beginning of</p>
+        <p class="titleBottom">Lost In Storm</p>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Let's go!->Chapter2.1]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 1</p>
+        </div>
+        <div class="StoryMain">
+            <p>The plane had seemingly leveled off, after a long and turbulent climb. However, you could barely see outside, due to the stormy weather. </p>
+            <p><i>“The pilots must know what they’re doing in order to fly through here"</i>, you thought for yourself. Despite it being a relatively short flight, you’ve drank and absorbed way too much water, and needed to go to the bathroom.</p>
+            <p> The light was green, and there was nobody at the door at the moment. You got up from your seat, shuffled sideways, and strolled to the toilet.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.2]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.2
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 2</p>
+        </div>
+        <div class="StoryMain">
+            <p>Before you could reach the door however, a sudden gust of wind had hit the airplane at a very precise angle, and had sent everyone flying. </p>
+            <p>To make things worse, it wasn’t just a gust - it was a whole stream of the same air, and the plane shook violently. </p>
+            <p>The vibration from the engine was at the correct frequency, that made the food trolley retainers unscrew. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.2_5]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.2_5
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 2 (EXTENSION)</p>
+        </div>
+        <div class="StoryMain">
+            <p>The trolley went flying. If nobody would stop it, it would crush the legs of everyone in the aisle seats.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Lunge for the trolley->Chapter2.3_lunge]]
+        </div>
+        <<timed 4s>>
+            <<goto "Chapter2.3_late">>
+        <</timed>>
+    </div>
+<</nobr>>
+
+:: Chapter2.3_lunge
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 3 (Success)</p>
+        </div>
+
+        <div class="StoryMain">
+            <p>You lunged forward to reach the trolley before it had picked up any speed. </p>
+            <p>The weight of the trolley overwhelmed you slightly, and dragged you several meters across the aisle. </p>
+            <p>The trolley came to a halt. You were half suspended over the ground, arching for a grip of the trolley. </p>
+            <br>
+            <p>2 flight attendants ran towards you, one from the back and one from the front. </p>
+            <br>
+            <p><i>“That was really brave”</i>, one of them said. All 3 of you then worked together on a solution on how to secure the trolley for the rest of the flight.</p>
+            <p>As you return to your seat, the passengers look slightly different on you. Seemingly, with hope. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.4]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.3_late
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 3 (TOO LATE)</p>
+        </div>
+        <div class="StoryMain">
+            <p>There simply wasn’t enough time. You saw the cart speed up along the isle, and had 0 chance of reaching it before it had impacted someone.</p>
+            <p>Sure enough, not even 2 seconds since, a loud audible cry came from the middle of the plane. </p>
+            <p>You swiftly turned your head, and saw the cart tipped over, obstructing the aisle and injuring 2 aisle seating passengers. </p>
+            <p>Not even a second later, boh flight attendants scrambled to help, leaving you alone in the galley, just staring at what had just happened.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.4]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.4
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 4</p>
+        </div>
+        <div class="StoryMain">
+            <p>To edit later haawhahwhwah</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.5]]
+        </div>
+    </div>
+<</nobr>>
