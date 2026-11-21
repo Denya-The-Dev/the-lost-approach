@@ -1,26 +1,28 @@
 .storyContainer {
   position: fixed;
-  bottom: 2rem;
+  bottom: 7rem;
   left: 50%;
   transform: translateX(-50%);
-  
   width: 90%;
   max-width: 750px;
+  max-height: 65vh;
+  overflow-y: auto;
   padding: 2rem 2.5rem;
   box-sizing: border-box;
-  
-
   background: rgba(18, 26, 36, 0.75);
   border: 1px solid rgba(175, 205, 225, 0.2);
   border-radius: 8px;
-  
-
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  
+  box-shadow: 0 8px 32px rgba(5, 10, 16, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
 
-  box-shadow: 0 8px 32px rgba(5, 10, 16, 0.6),
-              inset 0 1px 0 rgba(255, 255, 255, 0.08);
+.storyContainer::-webkit-scrollbar {
+  width: 6px;
+}
+.storyContainer::-webkit-scrollbar-thumb {
+  background: rgba(141, 164, 181, 0.3);
+  border-radius: 4px;
 }
 
 .Subtitle p {
@@ -31,7 +33,6 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  
   text-shadow: 0 0 10px rgba(141, 164, 181, 0.3);
 }
 
@@ -43,16 +44,52 @@
   line-height: 1.65;
   letter-spacing: 0.02em;
   font-weight: 400;
-  
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-
 .buttonsParent {
-  margin-top: 1.75rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+}
+
+.button a {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  background: rgba(18, 26, 36, 0.75);
+  color: #d8e5ed !important;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border: 1px solid rgba(175, 205, 225, 0.25);
+  border-radius: 4px;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  box-shadow: 0 4px 15px rgba(10, 18, 26, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button a:hover {
+  background: rgba(45, 65, 85, 0.85);
+  color: #ffffff !important;
+  border-color: rgba(200, 230, 255, 0.6);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(180, 215, 235, 0.25), 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button a:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }

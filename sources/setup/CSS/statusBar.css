@@ -1,43 +1,46 @@
 .statusMenu {
     position: fixed;
-    top: 1%;
-    right: 1%;
-
-    width: fit-content;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
     max-width: 750px;
-    padding-right: 0 !important;
+    padding: 0.5rem 1.5rem !important;
     box-sizing: border-box;
-
-
     background: rgba(18, 26, 36, 0.75);
-    border: 1px solid rgba(175, 205, 225, 0.2);
+    border: 1px solid rgba(175, 205, 225, 0.15);
     border-radius: 8px;
-
-
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
-
-    box-shadow: 0 8px 32px rgba(5, 10, 16, 0.6),inset 0 1px 0 rgba(255, 255, 255, 0.08);
-
-    display: flex;
-    flex-direction: column;
+    box-shadow: 0 4px 16px rgba(5, 10, 16, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
     z-index: 100;
 }
 
-.statusMenu div {
-    padding: 0.3rem;
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
 }
 
-.health {
-    color: red;
+.stat span:first-child {
+    color: #7a8f9e;
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
-.knowledge {
-    color: seagreen;
-}
-.stress {
-    color: orange;
-}
-.hope {
-    color: blue;
+
+.stat span:last-child {
+    color: #c9d6df;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
