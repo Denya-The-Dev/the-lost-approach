@@ -1,0 +1,254 @@
+:: Chapter3.0
+<<nobr>>
+    <div class="titleParent">
+        <p class="titleTop">Beginning of</p>
+        <p class="titleBottom">The Last Approach</p>
+        <<set $knowledge to $knowledge + 1>>
+        <<set $stress to $stress + 10>>
+        <<set $hope to $hope + 10>>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Let's go!->Chapter3.1]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 1</p>
+        </div>
+        <div class="StoryMain">
+            <p>As you unbuckle the seatbelt, hopefully for the last time on this flight, and walk to the very front of the plane. The cockpit door was.. Open. </p>
+            <p>Stepping into the cockpit, every light had blinded you. The amount of information packed in the tiny cockpit of a 737 was surreal. Sensory overload hit was immediate and the strongest that you’ve ever had in your life. </p>
+            <p>As you sat in the seat of the captain, the First officer gave you a pair of headphones to put on. There was static. A lot of static. Outside of the windshield, there was absolutely nothing except for warp looking rain and haunting jagged peaks of the fjords below. There was no time to spare. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.2]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.2
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 2</p>
+        </div>
+        <div class="StoryMain">
+            <p><i>“Warm welcome to the flightdeck”</i>, said the first officer. </p>
+            <p><i>“Now please focus, this will be the hardest thing that you’ve done in your life”</i>.</p>
+            <p><i>“Please call out the altitude as we pass it, and make sure we do not drop below 4000 feet, the minimum safe altitude of this region”</i>.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.3]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.3
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 3</p>
+        </div>
+        <div class="StoryMain">
+            <p>You felt a lot of responsibility go down your spine as the first officer finished speaking. You began doing what you’ve been asked to, without any additional questions or confirmations. </p>
+            <p>Static suddenly became non-audible, as you heard the first officer ask: <i>“Flesland approach, Scandinavian 248, how do you read?”</i>. </p>
+            <p>There was no response at this moment. All you could do now was pray that the first officer could handle the situation. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.4]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.4
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 4</p>
+        </div>
+        <div class="StoryMain">
+           <p>Through the heavy rain and thick clouds, some lights came into sight. </p>
+           <p><i>“The runway is 19 miles at our 1 o'clock”</i> - mumbled the first officer. </p>
+           <p><i>“Scandinavian 248, Flesland approach, do you read?”</i> - was audible from the headset. </p>
+           <p><i>“Affirmative, Scandinavian 248”</i>, said the first officer.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.5]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.5
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 5</p>
+        </div>
+        <div class="StoryMain">
+           <p>The very next moment the wind gusts blew from the side so hard that you touched the ceiling with your own head. Altitude started dropping down rapidly, and you could not report the descent fast enough. In the end however, it stabilized.</p>
+           <p><i>“Scandinavian 248, via NEPAM, wind 180 degrees at 16 knots, runway 17, cleared to land. Use caution, last acft reported significant windshear on 5nm file”</i>.</p>
+           <p><i>“Via NEPAM, runway 17 cleared to land, Scandinavian 248”</i>, said the first officer.</p>
+           <p>The lights were coming closer and closer however, but the altitude was still way too high.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Follow IFR->Chapter3.6_IFR]]
+        </div>
+        <div class="button">
+            [[Follow Visual->Chapter3.6_Visual]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.6_IFR
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 6 (IFR)</p>
+        </div>
+        <<set $knowledge to $knowledge + 1>>
+        <<set $stress to $stress - 5>>
+        <<set $trust to $trust + 5>>
+        <div class="StoryMain">
+           <p><i>“Do not let the lights mislead you. Stay above the minimum altitude!”</i> - You said you were worrying for the safety of the whole flight. </p>
+           <p><i>“You’re probably right. We can always go around”</i>- said first officer as he increased the thrust and leveled off at the shelf altitude. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.7]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.6_Visual
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 6 (VFR)</p>
+        </div>
+        <<set $stress to $stress + 25>>
+        <<set $trust to $trust - 5>>
+        <div class="StoryMain">
+           <p><i>“There is the runway”</i> - the first officer said as he decreased thrust to idle. </p>
+           <p><i>“We are going to be on the ground in no time”</i>. Despite the first officer's confident actions, you could see that the plane was going below the published minimum altitude, and the jagged lines of the fjords came into sight at a rapid rate. </p>
+           <p><b>WHOOP WHOOP PULL UP PULL UP</b> was the last sound you heard. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Ending 3->Ending3]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.7
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 7</p>
+        </div>
+        <div class="StoryMain">
+           <p>The plane continued flying the route that was previously entered into the MCDU by the both pilots. Despite the heavy wind almost snapping the wings clean from the aircraft, you continued flying within the safe envelope. In no time, you were already intercepting the Localizer for runway 17. </p>
+           <p><i>“Here we go”</i> - said the first officer. You didn't say anything because there was simply nothing left to say. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.8]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.8
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 8</p>
+        </div>
+        <div class="StoryMain">
+           <p>Robotic tone announced <b>“Two Thousand Five hundred”</b>, as you’ve become closer as ever to the ground. Plane kept announcing the radio altitude as you continued coming closer and closer to the ground. </p>
+           <br>
+           <p><b>“500”</b> </p>
+           <br>
+           <p>The sudden gust of wind had blown against the tail so hard that it knocked loose items straight to the floor. The wing dipped so much that you thought that it was the end of it all. However, to some miracle, the first officer recovered from the violent bank. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.9]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.9
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 9</p>
+        </div>
+        <div class="StoryMain">
+           <p><i>"Make the brace call—now!"</i> - the first officer urged, his voice cracking as the ground rushed up beneath.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Announce->Chapter3.10_Announced]]
+        </div>
+        <<timed 4s>>
+            <<goto "Chapter3.10_Late">>
+        <</timed>>
+    </div>
+<</nobr>>
+
+:: Chapter3.10_Announced
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 10 (ANNOUNCED)</p>
+        </div>
+        <div class="StoryMain">
+           <p>You used whatever strength you have left to grab the PA microphone from the pedestal. You smash the announce button twice, before finally committing to say it. </p>
+           <p><i>“Brace for impact!”</i> - came out of your mouth faster than you could think about it. </p>
+           <p><i>“Brace Brace, Heads down, stay down”</i> came loudly over the speakers, as the flight attendants announced it.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Ending 1 ->Ending1]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter3.10_Late
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter3 - 10 (LATE)</p>
+        </div>
+        <div class="StoryMain">
+           <p>You try to reach for the mic, but the sudden gust of wind makes you hit the window so hard, you nearly pass out. </p>
+           <p>With no strength left, the gravity pushes you forward as you fall on the sidestick, making it almost impossible to control the plane. </p>
+           <p><i>“WHAT ARE YOU DOING”</i> - screamed the first officer loudly. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Ending 2->Ending2]]
+        </div>
+    </div>
+<</nobr>>
