@@ -81,23 +81,25 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 **Working on:**
 
-- [ ] Endings
+
 
 **On review:**
 - [x] Chapter 1 *No graphical enchancement yet*
 - [x] Chapter 2 *No graphical enchancement yet*
 - [x] Chapter 3 *No graphical enchancement yet*
 - [x] Prologue
-- [x] CSS
+
 - [x] Readme UI and doc 
 - [x] Correct character information, age, gender, name etc
+
 
 
 
 ### THINGS COMPLETED
 
 **Completed:**
-
+- [x] Visual styling
+- [x] CSS
 ---
 
 *I use arch btw*
