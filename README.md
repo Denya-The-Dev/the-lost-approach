@@ -82,17 +82,20 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 - [ ] Add more items into the body paragraph and tweak with style settings
 
 
-- [ ] Chapter 3
+
 - [ ] Chapter 4
 
 **Working on:**
-- [ ] Chapter 2
+
+- [ ] Chapter 3
 
 **On review:**
 - [x] Chapter 1 *No graphical enchancement yet*
+- [x] Chapter 2 *No graphical enchancement yet*
 - [x] Prologue
 - [x] CSS
 - [x] Readme UI and doc 
+
 
 ### THINGS COMPLETED
 
