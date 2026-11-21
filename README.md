@@ -38,7 +38,7 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 **Title:** The Lost Approach
 
-**Story Concept:** An ordinary passenger boards a Norwegian Boeing 737-800 out of Vágar, heading to Bergen for a long-overdue family reunion. Outside, violent North Sea turbulence batters the airframe. Inside, a heavy silence hangs as memories of strained family ties surface. Unbeknownst to the passenger, their family hasn't just gathered to celebrate—they are waiting on a critical answer only they can bring. Every passing mile through the storm brings both physical peril and emotional reckoning closer.
+**Story Concept:** An ordinary passenger boards a Scandinavian Airbus A320-200 out of Vágar, heading to Bergen for a long-overdue family reunion. Outside, violent North Sea turbulence batters the airframe. Inside, a heavy silence hangs as memories of strained family ties surface. Unbeknownst to the passenger, their family hasn't just gathered to celebrate—they are waiting on a critical answer only they can bring. Every passing mile through the storm brings both physical peril and emotional reckoning closer.
 
 ### SOFTWARE USED
 
