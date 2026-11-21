@@ -204,7 +204,7 @@
             </div>
         <<else>>
             <div class="button">
-                [[Continue->Chapter2.7_u70]]
+                [[Ending 4->Ending4]]
             </div>
         <</if>>
     </div>
@@ -264,7 +264,7 @@
     </div>
     <div class="buttonsParent">
         <div class="button">
-            [[Continue->Ending4]]
+            [[Ending 4->Ending4]]
         </div>
     </div>
 <</nobr>>
