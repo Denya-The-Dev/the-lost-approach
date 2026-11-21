@@ -5,7 +5,7 @@
     "format-version": "2.37.3"
 }
 :: StoryTitle
-The Last Approach
+The Lost Approach
 
 :: StoryInit
 <<cacheaudio "intro1" "sources/Assets/Intro/Intro1.ogg">>
