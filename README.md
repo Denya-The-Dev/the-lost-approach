@@ -83,11 +83,11 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 
 
 
-- [ ] Chapter 4
+
 
 **Working on:**
-
 - [ ] Chapter 3
+- [ ] Endings
 
 **On review:**
 - [x] Chapter 1 *No graphical enchancement yet*
