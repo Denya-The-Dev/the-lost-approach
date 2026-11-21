@@ -104,7 +104,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://6552EF6D-EADD-4CF5-AAD4-DFE2E85C4463// --><tw-storydata name="The Last Approach" startnode="26" creator="Tweego" creator-version="2.1.1" ifid="6552EF6D-EADD-4CF5-AAD4-DFE2E85C4463" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "button.css" */
+	<!-- UUID://6552EF6D-EADD-4CF5-AAD4-DFE2E85C4463// --><tw-storydata name="The Last Approach" startnode="32" creator="Tweego" creator-version="2.1.1" ifid="6552EF6D-EADD-4CF5-AAD4-DFE2E85C4463" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "button.css" */
 .buttonsParent {
   margin-top: 5rem;
   display: flex;
@@ -338,7 +338,7 @@ body{
         &lt;/div&gt;
         &lt;div class=&quot;StoryMain&quot;&gt;
             &lt;hr&gt;
-            &lt;p&gt;&lt;i&gt;“Widerøe flight 285 to Bergen, operated by Norwegian, is now boarding at Gate 2,”&lt;/i&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;i&gt;“Widerøe flight 285 to Bergen, operated by Scandinavian, is now boarding at Gate 2,”&lt;/i&gt;&lt;/p&gt;
             &lt;hr&gt;
             &lt;br&gt;
             &lt;p&gt;came loudly over the terminal intercom.&lt;i&gt;“Here we go,”&lt;/i&gt; you said to yourself, heading toward the gate.&lt;/p&gt;
@@ -372,8 +372,8 @@ body{
             &lt;p&gt;Chapter1 - 4&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&quot;StoryMain&quot;&gt;
-            &lt;p&gt;The large B737 had just made a sharp turn onto the runway to backtrack and prepare for the takeoff.&lt;/p&gt;
-            &lt;p&gt;CFM engines spooled up loudly as the plane began accelerating to a high-speed taxi.&lt;/p&gt;
+            &lt;p&gt;The large A320 had just made a sharp turn onto the runway to backtrack and prepare for the takeoff.&lt;/p&gt;
+            &lt;p&gt;IAE engines spooled up loudly as the plane began accelerating to a high-speed taxi.&lt;/p&gt;
             &lt;p&gt; Severe weather and flooded runway were shaking the plane heavily.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -539,6 +539,7 @@ body{
     &lt;div class=&quot;titleParent&quot;&gt;
         &lt;p class=&quot;titleTop&quot;&gt;Beginning of&lt;/p&gt;
         &lt;p class=&quot;titleBottom&quot;&gt;Lost In Storm&lt;/p&gt;
+        &lt;&lt;set $aircraft to $aircraft - 10&gt;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;buttonsParent&quot;&gt;
         &lt;div class=&quot;button&quot;&gt;
@@ -642,15 +643,131 @@ body{
             &lt;p&gt;Chapter2 - 4&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&quot;StoryMain&quot;&gt;
-            &lt;p&gt;To edit later haawhahwhwah&lt;/p&gt;
+            &lt;p&gt;The post was now empty, and there was no one to notice the cracking sound from the overhead bins. &lt;/p&gt;
+            &lt;p&gt;The jolt from the turbulence had apparently exceeded the maximum G-load of the overhead bins by an amount, and their structural integrity was compromised. &lt;/p&gt;
+            &lt;p&gt;You were in the lavatory at the time when the part of the bin detached. The only thing that you’ve heard is the loud bang and a sudden cry of a passenger. &lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;buttonsParent&quot;&gt;
         &lt;div class=&quot;button&quot;&gt;
-            [[Continue-&gt;Chapter2.5]]
+            [[Help the passenger-&gt;Chapter2.5_help]]
+        &lt;/div&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Ignore-&gt;Chapter2.5_ignore]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Prologue1.0" tags="" position="350,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Chapter2.5_help" tags="" position="350,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 5 (HELP)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;&lt;set $health to $health - 10&gt;&gt;
+        &lt;&lt;set $trust to $trust + 10&gt;&gt;
+        &lt;&lt;set $hope to $hope + 10&gt;&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;You sprinted out of the lavatory, and you saw a very scary scene. The overhead bin, loaded with bags, had partly broken off from the ceiling, and now was on the floor, clamping passenger’s arm to the seat, as they cried in agony. &lt;/p&gt;
+           &lt;p&gt;With the help of 4 other people, you have lifted the bin and pushed it over to the side. The remaining cabin crew  had rushed with the first aid kits to aid the person with their hand injury. &lt;/p&gt;
+           &lt;p&gt;&lt;i&gt;“What a nightmare of a flight this is, wow”&lt;/i&gt;, you mumbled to yourself, realising that you will be scarred forever after what you have just witnessed. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Continue-&gt;Chapter2.6]]
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Chapter2.5_ignore" tags="" position="475,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 5 (IGNORE)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;&lt;set $stress to $stress + 15&gt;&gt;
+        &lt;&lt;set $trust to $trust - 15&gt;&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;Your stomach drops as you hear the loud rumble. &lt;/p&gt;
+           &lt;p&gt;&lt;i&gt;“This is the end of it”&lt;/i&gt;, you thought at the moment, and squatted to prepare for the worst. &lt;/p&gt;
+           &lt;p&gt;&lt;b&gt;Second. 2 seconds. 3 seconds. Nothing.&lt;/b&gt; Eventually you hear a synchronous rumble from the floor of the plane. &lt;/p&gt;
+           &lt;p&gt;It was coming from several people that rushed in to help the woman. As you exited the bathroom, you walked down the aisle, full of shame, to reach your seat. No one peaked at you. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Continue-&gt;Chapter2.6]]
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="Chapter2.6" tags="" position="600,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 6&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;For a brief moment, the violent shaking subsided. The air was comparable to a knife slicing through a warm piece of butter, yet the clouds still contained every part of the airplane, leaving nothing to see from the windows. &lt;/p&gt;
+           &lt;p&gt;You looked at the time on your phone. The plane was supposed to be landing in 15 minutes, but it was clear that that would not happen. &lt;/p&gt;
+           &lt;p&gt;Your family would be tracking your flight on their phones now. If they see the severe weather warnings off the coast of Bergen, they would be terrified. &lt;/p&gt;
+           &lt;p&gt;&lt;i&gt;“I am coming, ”&lt;/i&gt; you promised them silently. &lt;i&gt;“I am almost there.”&lt;/i&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;&lt;if $trust &gt; 70&gt;&gt;
+            &lt;div class=&quot;button&quot;&gt;
+                [[Continue-&gt;Chapter2.7_o70]]
+            &lt;/div&gt;
+        &lt;&lt;else&gt;&gt;
+            &lt;div class=&quot;button&quot;&gt;
+                [[Continue-&gt;Chapter2.7_u70]]
+            &lt;/div&gt;
+        &lt;&lt;/if&gt;&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="Chapter2.7_o70" tags="" position="725,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 7 (TRUST)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;The senior flight attendant walked down the aisle. You didn&#39;t think much of it until she stopped dead abeam of your seat. Your heart dropped dead. &lt;/p&gt;
+           &lt;p&gt;She leaned down to you, and said something quietly in the voice only you could hear. &lt;/p&gt;
+           &lt;p&gt;&lt;i&gt;“We have a problem. The captain is unfortunately unable to continue the flight due to turbulence knocking him unconscious. The first officer is overwhelmed with the amount of work. We desperately need your help up there”&lt;/i&gt;&lt;/p&gt;
+           &lt;p&gt;As she finished speaking, the door of the cockpit broke open and you saw the captain arching over his armrest. &lt;/p&gt;
+           &lt;p&gt;&lt;i&gt;“Will you help us?”&lt;/i&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Help-&gt;Chapter2.7_o70_help]]
+        &lt;/div&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Ignore-&gt;Chapter2.7_o70_ignore]]
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="27" name="Chapter2.7_o70_help" tags="" position="850,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 7 (TRUST) (HELP)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;&lt;i&gt;“Of course. Anything to make this flight a little easier”.&lt;/i&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Continue-&gt;Chapter3.0]]
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="Chapter2.7_o70_ignore" tags="" position="975,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+    &lt;div class=&quot;storyContainer&quot;&gt;
+        &lt;div class=&quot;Subtitle&quot;&gt;
+            &lt;p&gt;Chapter2 - 7 (TRUST) (IGNORE)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;StoryMain&quot;&gt;
+           &lt;p&gt;&lt;i&gt;“I would be useless up there”. “Regardless, isn’t it your job to do that anyways?”&lt;/i&gt;&lt;/p&gt;
+           &lt;p&gt;Her face was stunned by your arrogant response, as she walked down the aisle to reach the bottom post.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;buttonsParent&quot;&gt;
+        &lt;div class=&quot;button&quot;&gt;
+            [[Continue-&gt;Ending4]]
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="Prologue1.0" tags="" position="1100,350" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;titleParent&quot;&gt;
         &lt;p class=&quot;titleTop&quot;&gt;Beginning of&lt;/p&gt;
         &lt;p class=&quot;titleBottom&quot;&gt;The Prologue&lt;/p&gt;
@@ -660,7 +777,7 @@ body{
             [[Let&#39;s go!-&gt;Prologue1.1]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Prologue1.1" tags="" position="475,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="30" name="Prologue1.1" tags="" position="1225,350" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;storyContainer&quot;&gt;
         &lt;div class=&quot;Subtitle&quot;&gt;
             &lt;p&gt;Prologue - 1&lt;/p&gt;
@@ -675,7 +792,7 @@ body{
             [[Continue-&gt;Prologue1.2]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="Prologue1.2" tags="" position="600,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="31" name="Prologue1.2" tags="" position="100,475" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;storyContainer&quot;&gt;
         &lt;div class=&quot;Subtitle&quot;&gt;
             &lt;p&gt;Prologue - 2&lt;/p&gt;
@@ -695,7 +812,7 @@ body{
             [[Continue-&gt;Chapter1.0]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="Start" tags="" position="725,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="Start" tags="" position="225,475" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;titleParent&quot;&gt;
         &lt;p class=&quot;titleTop&quot;&gt;Welcome to&lt;/p&gt;
         &lt;p class=&quot;titleBottom&quot;&gt;The Last Approach&lt;/p&gt;
@@ -705,7 +822,7 @@ body{
             [[Let the fun begin!-&gt;tutorial1]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="27" name="tutorial1" tags="" position="850,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="tutorial1" tags="" position="350,475" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;storyContainer&quot;&gt;
         &lt;div class=&quot;Subtitle&quot;&gt;
             &lt;p&gt;Tutorial - 1&lt;/p&gt;
@@ -725,7 +842,7 @@ body{
             [[Introduction-&gt;introduction]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="introduction" tags="" position="975,350" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="34" name="introduction" tags="" position="475,475" size="100,100">&lt;&lt;nobr&gt;&gt;
     &lt;div class=&quot;storyContainer&quot;&gt;
         &lt;div class=&quot;Subtitle&quot;&gt;
             &lt;p&gt;Introduction - 1&lt;/p&gt;
@@ -749,14 +866,14 @@ body{
             [[Prologue-&gt;Prologue1.0]]
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="StoryInit" tags="" position="1100,350" size="100,100">&lt;&lt;cacheaudio &quot;intro1&quot; &quot;sources/Assets/Intro/Intro1.ogg&quot;&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="35" name="StoryInit" tags="" position="600,475" size="100,100">&lt;&lt;cacheaudio &quot;intro1&quot; &quot;sources/Assets/Intro/Intro1.ogg&quot;&gt;&gt;
 
 &lt;&lt;set $health to 100&gt;&gt;
 &lt;&lt;set $stress to 20&gt;&gt;
 &lt;&lt;set $trust to 50&gt;&gt;
 &lt;&lt;set $knowledge to 0&gt;&gt;
 &lt;&lt;set $aircraft to 100&gt;&gt;
-&lt;&lt;set $hope to 70&gt;&gt;</tw-passagedata><tw-passagedata pid="30" name="PassageFooter" tags="" position="1225,350" size="100,100">&lt;div class=&quot;statusMenu&quot;&gt;
+&lt;&lt;set $hope to 70&gt;&gt;</tw-passagedata><tw-passagedata pid="36" name="PassageFooter" tags="" position="725,475" size="100,100">&lt;div class=&quot;statusMenu&quot;&gt;
     &lt;div class=&quot;stat health&quot;&gt;&lt;span&gt;Health&lt;/span&gt; &lt;span&gt;&lt;&lt;= $health&gt;&gt;&lt;/span&gt;&lt;/div&gt;
     &lt;div class=&quot;stat stress&quot;&gt;&lt;span&gt;Stress&lt;/span&gt; &lt;span&gt;&lt;&lt;= $stress&gt;&gt;&lt;/span&gt;&lt;/div&gt;
     &lt;div class=&quot;stat knowledge&quot;&gt;&lt;span&gt;Knowledge&lt;/span&gt; &lt;span&gt;&lt;&lt;= $knowledge&gt;&gt;&lt;/span&gt;&lt;/div&gt;
