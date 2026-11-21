@@ -43,7 +43,7 @@ Alternatively, simply double-click `index.html` to launch the game in your defau
 ### SOFTWARE USED
 
 - **Game engine:** [Twine](https://twinery.org/), using SugarCube-2 format, with Tweego compiler
-- **Visuals:** XP12 + LVLUP737
+- **Visuals:** MSFS2020 + FNX320
 
 ### THE 4 MAIN ARCS
 
