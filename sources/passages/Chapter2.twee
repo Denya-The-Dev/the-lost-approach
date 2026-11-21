@@ -3,6 +3,7 @@
     <div class="titleParent">
         <p class="titleTop">Beginning of</p>
         <p class="titleBottom">Lost In Storm</p>
+        <<set $aircraft to $aircraft - 10>>
     </div>
     <div class="buttonsParent">
         <div class="button">
@@ -124,12 +125,146 @@
             <p>Chapter2 - 4</p>
         </div>
         <div class="StoryMain">
-            <p>To edit later haawhahwhwah</p>
+            <p>The post was now empty, and there was no one to notice the cracking sound from the overhead bins. </p>
+            <p>The jolt from the turbulence had apparently exceeded the maximum G-load of the overhead bins by an amount, and their structural integrity was compromised. </p>
+            <p>You were in the lavatory at the time when the part of the bin detached. The only thing that you’ve heard is the loud bang and a sudden cry of a passenger. </p>
         </div>
     </div>
     <div class="buttonsParent">
         <div class="button">
-            [[Continue->Chapter2.5]]
+            [[Help the passenger->Chapter2.5_help]]
+        </div>
+        <div class="button">
+            [[Ignore->Chapter2.5_ignore]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.5_help
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 5 (HELP)</p>
+        </div>
+        <<set $health to $health - 10>>
+        <<set $trust to $trust + 10>>
+        <<set $hope to $hope + 10>>
+        <div class="StoryMain">
+           <p>You sprinted out of the lavatory, and you saw a very scary scene. The overhead bin, loaded with bags, had partly broken off from the ceiling, and now was on the floor, clamping passenger’s arm to the seat, as they cried in agony. </p>
+           <p>With the help of 4 other people, you have lifted the bin and pushed it over to the side. The remaining cabin crew  had rushed with the first aid kits to aid the person with their hand injury. </p>
+           <p><i>“What a nightmare of a flight this is, wow”</i>, you mumbled to yourself, realising that you will be scarred forever after what you have just witnessed. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.6]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.5_ignore
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 5 (IGNORE)</p>
+        </div>
+        <<set $stress to $stress + 15>>
+        <<set $trust to $trust - 15>>
+        <div class="StoryMain">
+           <p>Your stomach drops as you hear the loud rumble. </p>
+           <p><i>“This is the end of it”</i>, you thought at the moment, and squatted to prepare for the worst. </p>
+           <p><b>Second. 2 seconds. 3 seconds. Nothing.</b> Eventually you hear a synchronous rumble from the floor of the plane. </p>
+           <p>It was coming from several people that rushed in to help the woman. As you exited the bathroom, you walked down the aisle, full of shame, to reach your seat. No one peaked at you. </p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter2.6]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.6
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 6</p>
+        </div>
+        <div class="StoryMain">
+           <p>For a brief moment, the violent shaking subsided. The air was comparable to a knife slicing through a warm piece of butter, yet the clouds still contained every part of the airplane, leaving nothing to see from the windows. </p>
+           <p>You looked at the time on your phone. The plane was supposed to be landing in 15 minutes, but it was clear that that would not happen. </p>
+           <p>Your family would be tracking your flight on their phones now. If they see the severe weather warnings off the coast of Bergen, they would be terrified. </p>
+           <p><i>“I am coming, ”</i> you promised them silently. <i>“I am almost there.”</i></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <<if $trust > 70>>
+            <div class="button">
+                [[Continue->Chapter2.7_o70]]
+            </div>
+        <<else>>
+            <div class="button">
+                [[Continue->Chapter2.7_u70]]
+            </div>
+        <</if>>
+    </div>
+<</nobr>>
+
+:: Chapter2.7_o70
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 7 (TRUST)</p>
+        </div>
+        <div class="StoryMain">
+           <p>The senior flight attendant walked down the aisle. You didn't think much of it until she stopped dead abeam of your seat. Your heart dropped dead. </p>
+           <p>She leaned down to you, and said something quietly in the voice only you could hear. </p>
+           <p><i>“We have a problem. The captain is unfortunately unable to continue the flight due to turbulence knocking him unconscious. The first officer is overwhelmed with the amount of work. We desperately need your help up there”</i></p>
+           <p>As she finished speaking, the door of the cockpit broke open and you saw the captain arching over his armrest. </p>
+           <p><i>“Will you help us?”</i></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Help->Chapter2.7_o70_help]]
+        </div>
+        <div class="button">
+            [[Ignore->Chapter2.7_o70_ignore]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.7_o70_help
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 7 (TRUST) (HELP)</p>
+        </div>
+        <div class="StoryMain">
+           <p><i>“Of course. Anything to make this flight a little easier”.</i></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Chapter3.0]]
+        </div>
+    </div>
+<</nobr>>
+
+:: Chapter2.7_o70_ignore
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Chapter2 - 7 (TRUST) (IGNORE)</p>
+        </div>
+        <div class="StoryMain">
+           <p><i>“I would be useless up there”. “Regardless, isn’t it your job to do that anyways?”</i></p>
+           <p>Her face was stunned by your arrogant response, as she walked down the aisle to reach the bottom post.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Continue->Ending4]]
         </div>
     </div>
 <</nobr>>
