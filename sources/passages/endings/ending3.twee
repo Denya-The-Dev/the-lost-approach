@@ -1,0 +1,27 @@
+:: Ending3
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Ending 3 - Too Late</p>
+        </div>
+        <div class="StoryMain">
+            <p>It soon became apparent to you that the lights weren’t coming from the runway. Before you could say anything, the wingtips clipped the tops of the trees, violently dragging the aircraft down. The nose pitched steeply upward into a desperate climb, triggering a low-altitude alarm in the ATC tower.</p>
+            <br>
+            <p><i>“Scandinavian 248, confirm maintaining 4,000 feet?”</i> crackled over the radio. There was no reply from the First Officer. Seconds later, the 737 slammed into the sheer rock face of the fjord. Everything went black instantly.</p>
+            <br>
+            <p><i>“Scandinavian 248, radar contact lost. Confirm maintaining 4,000 feet?”</i></p>
+            <p><i>“Scandinavian 248, Flesland Approach.”</i></p>
+            <p><i>“Scandinavian 248, Flesland Approach, acknowledge.”</i></p>
+            <br>
+            <p><i>“All stations, Flesland Approach, on Guard. Radar contact was lost with Scandinavian 248, a Boeing 737, near Yelto. Any aircraft with visual contact, report on 121.005.”</i></p>
+            <br>
+            <p><i>“Flesland Approach, N75PK, we are approximately 10 miles north of Yelto. We just saw a huge fireball at our 9 o’clock.”</i></p>
+            <p><i>“N75PK, Roger.”</i></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Play Again->Introduction]]
+        </div>
+    </div>
+<</nobr>>

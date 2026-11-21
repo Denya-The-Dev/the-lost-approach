@@ -1,0 +1,29 @@
+:: Ending4
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Ending 4 - Lost Approach</p>
+        </div>
+        <div class="StoryMain">
+            <p>You sat helplessly in your seat as the aircraft rolled into a steep, unnatural bank. The autopilot fought to level the wings, catching the plane once, then twice—but each time, a violent gust of wind slammed the fuselage lower and lower into the dark.</p>
+            <br>
+            <p>There was nothing left for you to do now. You had made your choices, and the cockpit door remained locked. All you could do was sit back and stare out the small cabin window.</p>
+            <br>
+            <p>Through the sleet and fog, the jagged silhouettes of the fjords finally broke through the darkness—far too close, and with no runway lights in sight. A sudden, suffocating silence fell over the cabin for a fraction of a second before the screaming started.</p>
+            <br>
+            <p>High above, the radio waves crackled with unanswered warnings.</p>
+            <br>
+            <p><i>“Scandinavian 248, low altitude alert! Check your altitude immediately!”</i></p>
+            <p><i>“Scandinavian 248, Flesland Approach, respond.”</i></p>
+            <br>
+            <p><i>“All stations, Flesland Approach, on Guard. Radar contact lost with Scandinavian 248 over the fjords southwest of Flesland. Any aircraft with visual contact, report on 121.005.”</i></p>
+            <br>
+            <p>Down below, the black water rose up to meet the glass, and the cabin went silent forever.</p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Play Again->Introduction]]
+        </div>
+    </div>
+<</nobr>>

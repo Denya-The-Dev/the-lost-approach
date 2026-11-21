@@ -1,0 +1,25 @@
+:: Ending2
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Ending 2 - Survivors</p>
+        </div>
+        <div class="StoryMain">
+            <p>The first officer could not recover from the nose down moment in time. The A320 slammed into the tarmac nose first, breaking it in the process. The ground impact force finally knocked you unconscious. The plane spun wildly across the runway, screeching until it went to a rest, several meters from the runway's centerline.</p>
+            <br>
+            <p>When you opened your eyes, your ears were ringing. The cabin was filled to the brim with smoke and screams. The main thing was that you survived.</p>
+            <br>
+            <p>You helped others to deploy the slides and get out from the burning aircraft. Before jumping down, you looked around. One thing was clear, others hadn’t been so lucky.</p>
+            <br>
+            <p>Hours later, you were in the hospital, getting checked out after the rough experience. Your family just came as well.</p>
+            <br>
+            <p>Despite the incident and the permanent mental scar,</p>
+            <p><b>you are finally home.</b></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Play Again->Start]]
+        </div>
+    </div>
+<</nobr>>

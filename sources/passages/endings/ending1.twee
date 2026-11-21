@@ -1,0 +1,23 @@
+:: Ending1
+<<nobr>>
+    <div class="storyContainer">
+        <div class="Subtitle">
+            <p>Ending 1 - Home Again</p>
+        </div>
+        <div class="StoryMain">
+            <p>The ground was coming up fast from below. The main landing gear slammed into the wet runway below with so much force that it nearly broke your back. But, everything held.</p>
+            <p>The first officer slammed the throttle into reverse, fighting for his life to keep the aircraft straight on the flooded runway. The plane decelerated rapidly. And then finally, the plane taxied along at a relatively slow speed.</p>
+            <br>
+            <p>The plane parked safely at the gate, and everyone deboarded safely, with some having minor injuries from the past events that happened in the flight.</p>
+            <br>
+            <p>An hour later, you walked out from the main doors of the Bergen airport. The air was cold, but, for the first time, it felt fresh, and safe. You saw your family almost instantly. As they saw you, they breathed a sigh of relief.</p>
+            <br>
+            <p><b>You are finally home.</b></p>
+        </div>
+    </div>
+    <div class="buttonsParent">
+        <div class="button">
+            [[Play Again->Start]]
+        </div>
+    </div>
+<</nobr>>
